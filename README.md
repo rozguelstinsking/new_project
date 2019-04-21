@@ -1,8 +1,8 @@
 # First you need to have an on premise(local) openshift installation.
 
-## 1.- # oc create new-project <projectname>
+## 1.- # oc new-project <projectname>
 
-## 2.- # oc create new-app <git url "https://github/user/repo">
+## 2.- # oc new-app <git url "https://github/user/repo">
  
 
  # The oc clicente will search an image by Dockerfile an use it to do one build, creates one pod and creates a service, but does not create a route.
